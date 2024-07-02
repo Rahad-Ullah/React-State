@@ -21,8 +21,8 @@ const TodoForm = () => {
   return (
     <div>
       <div>
-        <h1>Add Todo</h1>
-        <form onSubmit={handleSubmit} className="space-x-4">
+        <h1 className="text-2xl mb-4">Add Todo</h1>
+        <form onSubmit={handleSubmit} className="space-x-4 py-4">
           <label htmlFor="Todo">Task</label>
           <input
             className="input input-bordered"
